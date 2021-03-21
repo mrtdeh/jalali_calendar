@@ -670,8 +670,8 @@ class _MonthPickerState extends State<MonthPicker>
     final PersianDate selectedPersainDate = PersianDate.pDate(
         gregorian: widget.selectedDate.toString()); // To Edit Month Displaye
 
-    if (selectedPersainDate.day >= 1 && selectedPersainDate.day < 12)
-      month = _addMonthsToMonthDate(widget.firstDate, index + 1);
+//     if (selectedPersainDate.day >= 1 && selectedPersainDate.day < 12)
+//       month = _addMonthsToMonthDate(widget.firstDate, index + 1);
 
     return DayPicker(
       selectedDate: widget.selectedDate,
